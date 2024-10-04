@@ -6,7 +6,9 @@ import './input.css';
 const App = () => {
   return (
     <BrowserRouter>
-      <RouteProvider />
+      <div className="min-h-screen">
+        <RouteProvider />
+      </div>
       <Toaster />
     </BrowserRouter>
   );
