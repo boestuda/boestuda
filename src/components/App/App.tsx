@@ -2,14 +2,17 @@ import { BrowserRouter } from 'react-router-dom';
 import RouteProvider from '../RouteProvider';
 import { Toaster } from '@/components/ui/toaster';
 import './input.css';
+import { TooltipProvider } from '@/components/ui/tooltip';
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="min-h-screen">
-        <RouteProvider />
-      </div>
-      <Toaster />
+      <TooltipProvider>
+        <div className="min-h-screen">
+          <RouteProvider />
+        </div>
+        <Toaster />
+      </TooltipProvider>
     </BrowserRouter>
   );
 };
