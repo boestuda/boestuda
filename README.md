@@ -1,19 +1,9 @@
-# Goto
-
-**Goto** é um projeto que oferece funcionalidades de mapeamento, permitindo que os usuários visualizem locais e interajam com eles de maneira intuitiva. Este projeto é desenvolvido com React e utiliza várias bibliotecas para otimizar a experiência do usuário.
-
-## Funcionalidades
-
-- **Visualização de Mapa**: Utiliza a API do Google Maps para mostrar locais selecionados.
-- **Localização do Usuário**: Permite que os usuários obtenham sua localização atual e vejam locais próximos.
-- **Filtros de Clientes**: Os usuários podem filtrar e selecionar clientes em sua área.
-- **Rota até o Local**: Oferece a opção de calcular a rota até um local específico.
+# Boestudar
 
 ## Dependências
 
 ### Dependências Principais
 
-- `@googlemaps/js-api-loader`: Carrega a API do Google Maps de forma assíncrona, facilitando a integração do mapa no projeto.
 - `react`: Biblioteca principal para a construção da interface do usuário.
 - `react-dom`: Responsável por interagir com a DOM e renderizar componentes React.
 - `framer-motion`: Biblioteca para animações que permite criar transições suaves e interações dinâmicas.
